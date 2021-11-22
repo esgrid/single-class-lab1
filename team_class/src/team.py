@@ -11,6 +11,7 @@ class Team:
 
     def has_player(self, player):
         return (True if player in self.players else False)
+        # return player in self.players  --- even nicer solution
 
     def play_game(self, won_or_not):
         if won_or_not: 
